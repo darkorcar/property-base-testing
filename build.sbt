@@ -1,4 +1,4 @@
-name := "property-base-testing"
+name := "property-based-testing"
 
 version := "1.0"
 
