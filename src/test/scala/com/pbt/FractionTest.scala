@@ -14,8 +14,6 @@ class FractionTest extends WordSpecLike with Matchers with PropertyChecks {
       forAll { (n: Int, d: Int) =>
         whenever(d != 0 && d != Integer.MIN_VALUE && n != Integer.MIN_VALUE) {
 
-          println(s"$n $d")
-
           val f = new Fraction(n, d)
 
           if (n < 0 && d < 0 || n > 0 && d > 0)
